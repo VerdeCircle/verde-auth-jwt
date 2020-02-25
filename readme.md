@@ -19,5 +19,6 @@ If you are developing on a Windoze machine and bcrypt won't build. You can do th
 2. npm i -g node-gyp
 3. npm i -g --production windows-build-tools
 4. npm i bcrypt --save
+5. Remember to enable Real-time protection in Windoze Defender
 
 If you want to switch to bcryptjs and lose the speed, that's fine too.
