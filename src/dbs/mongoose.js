@@ -17,7 +17,8 @@ try {
     return mongoose.connect(process.env.MONGODB_URL, {
       useNewUrlParser: true,
       useCreateIndex: true,
-      useFindAndModify: false
+      useFindAndModify: false,
+      useUnifiedTopology: true
     }).then(() => {
       if (mongooseretries.count() > 0) console.log(`We don't need no stinking Badgers!`);
     }).catch(error => {
