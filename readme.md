@@ -2,7 +2,6 @@ Simple node/mongodb (via mongoose) jwt auth service supporting multiple login se
 
 For dev, you will want a .env file that would look something like the following:
 > PORT=3000
-
 > MONGODB_URL=mongodb+srv://<MYMONGOURL>?retryWrites=true&w=majority
 > JWT_SECRET=<YOUR_TOP_SECRET_KEY>
 > PASSWORD_REGEX=STRONG
